@@ -24,6 +24,11 @@ button{
     width: 45px;
     height: 50px;
     border: 1px solid black;
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(4px);
 }
 
 #clear{
@@ -41,7 +46,7 @@ button{
 }
 
 #number{
-    background-color: cornsilk;
+    background-color:aliceblue;
 }
 
 #operator{
@@ -49,7 +54,7 @@ button{
 }
 
 #clear{
-    background-color: azure;
+    background-color:antiquewhite;
 }
 
 #equals{
